@@ -1,0 +1,35 @@
+Recomendations:
+This is a list of recommendations to make this project better 
+(UI, UX, Performance, Security, Architecture, Bug fix, New Feature, ...etc )
+
+// Please make your recommendations as clear as possible with only a few sentences 
+
+1. I would implement a random generated seed when the user sends a request to the server to log in , if it matches the one that was generated ad the server , let it login (add a expiration time for this seed)
+- This will take me like a day
+
+2. Add an External CSS stylesheet to load a better UI interface:
+- Already added a stylesheet.
+ - Changed the UI look 
+ - Added responsive media query to make it look better on mobile
+ - Changed the login button
+ - Changed the input areas
+ - Added a better looking font
+ - Added a nav bar on the top once the user logs in
+
+3. Create a change password function
+	- I created a simple one that only shows an alert if the field is not empty, and shows the new password taken from the ng-model
+	- Create a full function would take me like a day
+
+4. Create a logout function
+	- Createad a simple function that only takes the user to the origin location when the users clicks on the logout link that I added
+	- Create a full function that flushes the password would take me like 2 hours.
+
+5. One thing I immediately noticed, was the way in which he declared his app and controllers, not using the IIFE (immediately invoked function expression) syntax, or assigning the app and modules to variables. (used strict to avoid undeclared variables)
+
+Im not really familiar with express, i tried to make the change password function but I need to investigate on how it works and be able to load the post API.
+
+
+
+And thats all!
+
+Thank you for this opportunity.
